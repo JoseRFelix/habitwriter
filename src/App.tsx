@@ -29,6 +29,7 @@ const CSSReset = createGlobalStyle`
   }
 
   body {
+    font-family: ${props => props.theme.font.text};
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 

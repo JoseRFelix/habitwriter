@@ -1,12 +1,16 @@
-import { DefaultTheme } from 'styled-components'
+import { DefaultTheme } from "styled-components";
 
 const white: DefaultTheme = {
-    colors: {
-        main: 'cyan',
-        secondary: 'magenta',
-        background: '#ffffff'
-    },
-}
+  colors: {
+    main: "#65B00A",
+    text: "#383B3F",
+    background: "#ffffff"
+  },
+  font: {
+    text: "'Raleway', sans-serif",
+    heading: "'Playfair Display', serif"
+  }
+};
 
 const themes = { white };
 

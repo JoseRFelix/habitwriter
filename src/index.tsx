@@ -8,6 +8,8 @@ import { themes } from "./styled";
 
 import { BrowserRouter as Router } from "react-router-dom";
 
+import "semantic-ui-less/semantic.less";
+
 ReactDOM.render(
   <Router>
     <ThemeProvider theme={themes.white}>

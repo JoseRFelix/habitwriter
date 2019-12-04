@@ -3,7 +3,7 @@
   "description": "Platform to create the habit of writing everyday.",
   "Author": "Jose Felix",
   "license": "GNU Affero General Public License v3.0",
-  "homepage": "https://github.com/Jfelix61/habitwriter",
+  "homepage": "https://habitwriter.netlify.com/",
   "version": "0.1.0",
   "private": true,
   "repository": {
@@ -12,6 +12,12 @@
   },
   "bugs": {
     "url": "https://github.com/Jfelix61/habitwriter/issues"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "craco eject"
   },
   "dependencies": {
     "@types/draft-js": "^0.10.37",
@@ -37,12 +43,6 @@
     "semantic-ui-react": "^0.88.1",
     "styled-components": "^4.4.0",
     "typescript": "3.6.4"
-  },
-  "scripts": {
-    "start": "craco start",
-    "build": "craco build",
-    "test": "craco test",
-    "eject": "craco eject"
   },
   "eslintConfig": {
     "extends": "react-app"

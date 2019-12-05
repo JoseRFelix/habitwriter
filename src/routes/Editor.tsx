@@ -47,7 +47,7 @@ const Editor: React.FC = () => {
 
 const Wrapper = styled.section`
   min-height: 100vh;
-  padding: 0 5rem;
+  padding: 5rem 10rem;
   cursor: text;
 `;
 

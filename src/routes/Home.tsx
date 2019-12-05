@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 import logoImg from "assets/logo.png";
 import { Button } from "semantic-ui-react";
+
 import { ReactComponent as HeroSVG } from "assets/illustration/ZombieingDoodle.svg";
 import { ReactComponent as CloudMessySVG } from "assets/illustration/MessyDoodle.svg";
 import { ReactComponent as CloudSVG } from "assets/illustration/Cloud.svg";
@@ -22,7 +23,9 @@ const Home: React.FC = () => {
           <LogoText>HabitWriter</LogoText>
         </LogoBox>
         <AuthenticationBox>
-          <AuthenticationText to="/write">Sign In</AuthenticationText>
+          <AuthenticationText to="/write">
+            <Link to="/write">Sign In</Link>
+          </AuthenticationText>
           <Button primary size="huge" content="Get Started" />
         </AuthenticationBox>
       </Nav>

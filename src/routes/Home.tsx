@@ -24,7 +24,7 @@ const Home: React.FC = () => {
         </LogoBox>
         <AuthenticationBox>
           <AuthenticationText to="/write">
-            <Link to="/write">Sign In</Link>
+           Sign In
           </AuthenticationText>
           <Button primary size="huge" content="Get Started" />
         </AuthenticationBox>
